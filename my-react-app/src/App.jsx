@@ -6,16 +6,14 @@ import Header from "./header.jsx"
 import Footer from "./footer.jsx"
 import Food from "./food.jsx"
 import Card from "./card.jsx"
+import Button from './Button/button.jsx'
+import Student from './Student.jsx'
+import Login from "./LoginModule.jsx"
 function App() {
   return (
     <div>
       <>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+        <Login isLoggedIn={false} user="Sameer"/>
       </>
     </div>
   );  
