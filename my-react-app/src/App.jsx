@@ -6,15 +6,17 @@ import Header from "./header.jsx"
 import Footer from "./footer.jsx"
 import Food from "./food.jsx"
 import Card from "./card.jsx"
-import Button from './Button/button.jsx'
+import Button from './button.jsx'
 import Student from './Student.jsx'
 import Login from "./LoginModule.jsx"
+import Fruits from "./Fruits.jsx"
+import Profile from './profilepicture.jsx'
+import MyComponent  from './mycomponent.jsx'  
+import Counter from './counter.jsx'
 function App() {
   return (
     <div>
-      <>
-        <Login isLoggedIn={false} user="Sameer"/>
-      </>
+      <Counter/>
     </div>
   );  
 }
