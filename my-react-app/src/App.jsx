@@ -13,10 +13,11 @@ import Fruits from "./Fruits.jsx"
 import Profile from './profilepicture.jsx'
 import MyComponent  from './mycomponent.jsx'  
 import Counter from './counter.jsx'
+import OnChangeDemo from './onchange.jsx'
 function App() {
   return (
     <div>
-      <Counter/>
+      <OnChangeDemo/>
     </div>
   );  
 }
