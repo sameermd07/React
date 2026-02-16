@@ -17,10 +17,11 @@ import OnChangeDemo from './onchange.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import UpdaterDemo from './reactUpdater.jsx'
 import Update from './ObjectUpdateUseState.jsx'
+import FoodList from './ArrayUpdateUseState.jsx'
 function App() {
   return (
     <div>
-      <Update/>
+      <FoodList/>
     </div>
   );  
 }
