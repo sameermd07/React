@@ -15,10 +15,12 @@ import MyComponent  from './mycomponent.jsx'
 import Counter from './counter.jsx'
 import OnChangeDemo from './onchange.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import UpdaterDemo from './reactUpdater.jsx'
+import Update from './ObjectUpdateUseState.jsx'
 function App() {
   return (
     <div>
-      <ColorPicker/>
+      <Update/>
     </div>
   );  
 }
