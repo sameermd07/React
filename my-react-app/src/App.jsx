@@ -18,10 +18,11 @@ import ColorPicker from './ColorPicker.jsx'
 import UpdaterDemo from './reactUpdater.jsx'
 import Update from './ObjectUpdateUseState.jsx'
 import FoodList from './ArrayUpdateUseState.jsx'
+import ArrayOfObjects from './ArrayOfObjects.jsx'
 function App() {
   return (
     <div>
-      <FoodList/>
+      <ArrayOfObjects/>
     </div>
   );  
 }
