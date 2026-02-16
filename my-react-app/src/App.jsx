@@ -14,10 +14,11 @@ import Profile from './profilepicture.jsx'
 import MyComponent  from './mycomponent.jsx'  
 import Counter from './counter.jsx'
 import OnChangeDemo from './onchange.jsx'
+import ColorPicker from './ColorPicker.jsx'
 function App() {
   return (
     <div>
-      <OnChangeDemo/>
+      <ColorPicker/>
     </div>
   );  
 }
